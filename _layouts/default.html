@@ -1,0 +1,156 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ '/css/index.css' | relative_url }}">
+  </head>
+  <body>
+    <h1>Welcome to RimbusDubs Site (WIP)</h1>
+    <h2>Eventually this will become a proper site :)</h2>
+
+    <h2>Click below to view scripts:</h2>
+    <h3>Sinners:</h3>
+    <div id="filters">
+        <button onclick="showOptions('Yisang')">Yisang
+          <img src="button_images/Yisang.png">
+        </button>
+        <button onclick="showOptions('Faust')">Faust
+          <img src="button_images/Faust.png">
+        </button>
+        <button onclick="showOptions('Don')">Don
+          <img src="button_images/Don.png">
+        </button>
+        <button onclick="showOptions('Ryoshu')">Ryoshu
+          <img src="button_images/Ryoshu.png">
+        </button>
+        <button onclick="showOptions('Meursault')">Meursault
+          <img src="button_images/Meursault.png">
+        </button>
+        <button onclick="showOptions('Honglu')">Hong Lu
+          <img src="button_images/Honglu.png">
+        </button>
+        <button onclick="showOptions('Heathcliff')">Heathcliff
+          <img src="button_images/Heathcliff.png">
+        </button>
+        <button onclick="showOptions('Ishmael')">Ishmael
+          <img src="button_images/Ishmael.png">
+        </button>
+        <button onclick="showOptions('Rodion')">Rodion
+          <img src="button_images/Rodion.png">
+        </button>
+        <button onclick="showOptions('Sinclair')">Sinclair
+          <img src="button_images/Sinclair.png">
+        </button>
+        <button onclick="showOptions('Outis')">Outis
+          <img src="button_images/Outis.png">
+        </button>
+        <button onclick="showOptions('Gregor')">Gregor
+          <img src="button_images/Gregor.png">
+        </button>
+      </div>
+      <h3>Non Sinners:</h3>
+      <div id="filters">
+        <button onclick="showOptions('Vergilius')">Vergilius
+          <img src="button_images/Vergilius.png">
+        </button>
+        <button onclick="showOptions('Charon')">Charon
+          <img src="button_images/Charon.png">
+        </button>
+        <button onclick="showOptions('Wolf')">Wolf</button>
+        <button onclick="showOptions('Lion')">Lion</button>
+        <button onclick="showOptions('Panther')">Panther</button>
+      </div>
+
+
+
+
+      <!-- <h3>Loops</h3>
+      {% assign products = "Kiwi,Tui,Kea,Karariki,Weka" | split: "," %}
+      <ul>
+      {% for item in products %}
+      <li>{{ item }}</li>
+      {% endfor %} -->
+
+
+      <h3>Scripts</h3>
+      <ul id="page-links"></ul>
+
+      <script>
+        const access = {{ site.data.appearance | jsonify }};
+        console.log(access)
+        const pages = {{ site.data.pages | jsonify }};
+        console.log(pages)
+
+
+        function showOptions(button) {
+          const list = document.getElementById("page-links");
+          list.innerHTML = ""; // clear previous links
+        
+           // Loop through all pages
+          Object.keys(access).forEach(pageId => {
+            const pageRoles = access[pageId]; //this gets into each 'chapter', Prologue etc, but still json
+            console.log(pageRoles)
+            // Check if any role contains this button
+            for (const role in pageRoles) {
+              console.log("ROLES")
+              console.log(role)
+              console.log("BUTTON")
+              console.log(button)
+              if (pageRoles[role].includes(button)) {
+                console.log("INCLUDES BUTTON!")
+                const page = pages[pageId];
+                if (!page) return;
+
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="${page.url}">${page.title}</a>`;
+                list.appendChild(li);
+                break; // Stop after first matching role
+              }
+            }
+          });
+        }
+        </script>
+
+      
+      <script>
+
+
+        
+        // <ul>
+        // {% for member in site.data.appearance.Prologue.0_1 %}
+        // <li>
+        //     <a href="https://github.com/{{ member.github }}">
+        //     {{ member.Sinner }}
+        //     </a>
+        // </li>
+        // {% endfor %}
+        // </ul>
+
+        // function showOptions(type) {
+
+        //   const list = document.getElementById("options-list");
+        //   list.innerHTML = "";
+        
+        //   if (!data[type]) return;
+        
+        //   data[type].forEach(option => {
+        //     const li = document.createElement("li");
+        //     li.innerHTML = `<a href="/details/${option.id}.html">${option.name}</a>`;
+        //     list.appendChild(li);
+        //   });
+        // }
+        </script>
+
+
+    <!-- <a href="Scripts/Prologue/0_1.html" class="button-class">Prologue 0-1</a><br/>
+    <a href="Scripts/Prologue/0_2.html" class="button-class">Prologue 0-2</a><br/>
+    <a href="Scripts/Prologue/0_3.html" class="button-class">Prologue 0-3</a><br/>
+    <a href="Scripts/Prologue/0_4.html" class="button-class">Prologue 0-4</a><br/> -->
+
+
+
+  </body>
+</html>

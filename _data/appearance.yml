@@ -1,0 +1,50 @@
+0_1:
+  Sinner:
+    - Faust
+    - Ishmael
+    - Yisang
+    - Gregor
+    - Outis
+    - Rodion
+  Non_sinner:
+    - Vergilius
+    - Wolf
+    - Lion
+    - Panther
+0_2:
+  Sinner:
+    - Yisang
+    - Faust
+    - Don
+    - Ryoshu
+    - Meursault
+    - Heathcliff
+    - Ishmael
+    - Honglu
+    - Sinclair
+    - Gregor
+    - Outis
+    - Rodion
+  Non_sinner:
+    - Vergilius
+    - Charon
+0_3:
+  Sinner:
+    - Faust
+    - Ishmael
+    - Yisang
+    - Don
+  Non_sinner:
+    - Vergilius
+    - Charon
+0_4:
+  Sinner:
+    - Faust
+    - Ishmael
+    - Yisang
+    - Gregor
+    - Outis
+    - Rodion
+  Non_sinner:
+    - Vergilius
+    - Charon
