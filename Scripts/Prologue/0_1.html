@@ -34,6 +34,10 @@
 	</style> -->
 </head>
 <body lang="en-CA" link="#000080" vlink="#800000" dir="ltr">
+<h1>Prologue 0-1</h1>
+<h2 id="sinner_blurb"></h2>
+<p>(Your lines have been highlighted)</p>
+
 <table width="100%" cellpadding="4" cellspacing="0">
 	<col width="42*"/>
 	<col width="128*"/>
@@ -1583,6 +1587,13 @@ My
 		.forEach(el => //console.log(el.classList)
 		el.classList.add(`${from}`)
 	);
+
+	const list = document.getElementById("sinner_blurb");
+    list.innerHTML = ""; // clear previous links
+	list.textContent = "Role selected: " + `${from}`
+	// const h2 = document.createElement("h4");
+	// h2.textContent = "Role selected: " + `${from}`
+	// list.appendChild(h2);
 	}
 	</script>
 
