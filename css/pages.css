@@ -1,0 +1,21 @@
+/* spaghetti at its best */
+.Yisang {background-color:  #d4e1e8 ;}
+.Faust {background-color:  #ffb1b4 ;}
+.Don {background-color:  #ffef23 ;}
+.Ryoshu {background-color:  #cf0000 ;}
+.Meursault {background-color:  #293b95; color:rgb(255, 255, 255) ;}
+.Honglu {background-color:  #5bffde ;}
+.Heathcliff {background-color:  #4e3076; color:white;}
+.Ishmael {background-color:  #ff9500 ;}
+.Rodion {background-color:  #820000; color:white ;}
+.Sinclair {background-color:  #8b9c15 ;}
+.Outis {background-color:  #325339; color:white ;}
+.Gregor {background-color:  #69350b; color:white ;}
+.Wolf {background-color:  grey ;}
+.Lion {background-color:  grey ;}
+.Panther {background-color:  grey ;}
+.Vergilius {background-color:  grey ;}
+.Charon {background-color:  grey ;}
+@page { size: 21.59cm 27.94cm; margin: 2cm }
+p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
+td p { widows: 0; orphans: 0; background: transparent }

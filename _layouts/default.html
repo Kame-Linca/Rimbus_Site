@@ -9,9 +9,9 @@
   </head>
   <body>
     <h1>Welcome to RimbusDubs Site (WIP)</h1>
-    <h2>Eventually this will become a proper site :)</h2>
+    <p>Eventually this will become a proper site :)</body>p>
 
-    <h2>Click below to view scripts:</h2>
+    <h2>Click on your role to view the (pre)scripts:</h2>
     <h3>Sinners:</h3>
     <div id="filters">
         <button onclick="showOptions('Yisang')">Yisang
@@ -75,7 +75,7 @@
       {% endfor %} -->
 
 
-      <h3>Scripts</h3>
+      <h3>Highlighted Scripts</h3>
       <ul id="page-links"></ul>
 
       <script>
@@ -105,7 +105,8 @@
                 if (!page) return;
 
                 const li = document.createElement("li");
-                li.innerHTML = `<a href="${page.url}">${page.title}</a>`;
+                li.innerHTML = `<a href="${page.url}?from=${button}">${page.title}</a>`;
+                console.log(page.url + "?from=" + button)
                 list.appendChild(li);
                 break; // Stop after first matching role
               }
