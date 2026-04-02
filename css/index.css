@@ -10,12 +10,3 @@ body {
   width: 50px;
   cursor: pointer;
 }
-
-.highlight {
-  background-color: #ffeb3b;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-
-}

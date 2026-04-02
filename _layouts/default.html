@@ -59,6 +59,9 @@
         <button onclick="showOptions('Charon')">Charon
           <img src="button_images/Charon.png">
         </button>
+        <button onclick="showOptions('Yuri')">Yuri
+          <img src="button_images/Yuri.png">
+        </button>
         <button onclick="showOptions('Wolf')">Wolf</button>
         <button onclick="showOptions('Lion')">Lion</button>
         <button onclick="showOptions('Panther')">Panther</button>
@@ -92,6 +95,7 @@
            // Loop through all pages
           Object.keys(access).forEach(pageId => {
             const pageRoles = access[pageId]; //this gets into each 'chapter', Prologue etc, but still json
+            console.log("PAGE ROLES ARE:")
             console.log(pageRoles)
             // Check if any role contains this button
             for (const role in pageRoles) {

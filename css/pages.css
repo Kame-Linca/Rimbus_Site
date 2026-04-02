@@ -11,11 +11,12 @@
 .Sinclair {background-color:  #8b9c15 ;}
 .Outis {background-color:  #325339; color:white ;}
 .Gregor {background-color:  #69350b; color:white ;}
-.Wolf {background-color:  grey ;}
-.Lion {background-color:  grey ;}
-.Panther {background-color:  grey ;}
-.Vergilius {background-color:  grey ;}
-.Charon {background-color:  grey ;}
+.Wolf {background-color:  lightgrey ;}
+.Lion {background-color:  glightgreyrey ;}
+.Panther {background-color:  lightgrey ;}
+.Vergilius {background-color:  lightgrey ;}
+.Charon {background-color:  lightgrey ;}
+.Yuri {background-color:  pink ;}
 @page { size: 21.59cm 27.94cm; margin: 2cm }
 p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
 td p { widows: 0; orphans: 0; background: transparent }

@@ -48,3 +48,42 @@
   Non_sinner:
     - Vergilius
     - Charon
+1_pengin:
+  Sinner:
+    - Sinclair
+    - Rodion
+    - Ryoshu
+    - Outis
+    - Meursault
+    - Gregor
+  Non_sinner:
+    - Yuri
+    - Charon
+2_hiyoko:
+  Sinner:
+    - Ishmael
+    - Heathcliff
+    - Sinclair
+    - Yisang
+  Non_sinner:
+    - Yuri
+    - Charon
+3_zou:
+  Sinner:
+    - Faust
+    - Ryoshu
+    - Honglu
+    - Don
+  Non_sinner:
+    - Yuri
+    - Charon
+4_tirano:
+  Sinner:
+    - Ishmael
+    - Rodion
+    - Sinclair
+    - Gregor
+    - Faust
+  Non_sinner:
+    - Vergilius
+
