@@ -59,12 +59,36 @@
         <button onclick="showOptions('Charon')">Charon
           <img src="button_images/Charon.png">
         </button>
+        <button onclick="showOptions('Carmen')">Carmen</button>
+        <!-- <button onclick="showOptions('Wolf')">Wolf</button>
+        <button onclick="showOptions('Lion')">Lion</button>
+        <button onclick="showOptions('Panther')">Panther</button> -->
+      </div>
+      <h3>C1/Majors:</h3>
+      <div id="filters">
         <button onclick="showOptions('Yuri')">Yuri
           <img src="button_images/Yuri.png">
         </button>
-        <button onclick="showOptions('Wolf')">Wolf</button>
-        <button onclick="showOptions('Lion')">Lion</button>
-        <button onclick="showOptions('Panther')">Panther</button>
+        <button onclick="showOptions('Hopkins')">Hopkins</button>
+        <button onclick="showOptions('Aya')">Aya</button>
+        <button onclick="showOptions('Hermann')">Hermann</button>
+        <button onclick="showOptions('Gubo')">Gubo</button>
+        <button onclick="showOptions('Jiahuan')">Jiahuan</button>
+      </div>
+      <h3>C1:</h3>
+      <div id="filters">
+        <button onclick="showOptions('Tomah')">Tomah</button>
+        <button onclick="showOptions('Alex')">Alex</button>
+        <button onclick="showOptions('Announcer')">Announcer</button>
+        <button onclick="showOptions('HeadManager')">HeadManager</button>
+        <button onclick="showOptions('Hooligan1')">Hooligan1</button>
+        <button onclick="showOptions('Hooligan2')">Hooligan2</button>
+        <button onclick="showOptions('Veteran1')">Veteran1</button>
+        <button onclick="showOptions('Veteran2')">Veteran2</button>
+        <button onclick="showOptions('Citizen1')">Citizen1</button>
+        <button onclick="showOptions('Citizen2')">Citizen2</button>
+        <button onclick="showOptions('Citizen3')">Citizen3</button>
+        <button onclick="showOptions('Citizen4')">Citizen4</button>
       </div>
 
 
@@ -91,12 +115,16 @@
         function showOptions(button) {
           const list = document.getElementById("page-links");
           list.innerHTML = ""; // clear previous links
+          const h2 = document.createElement("h2");
+            h2.textContent = button;
+            list.appendChild(h2);
         
            // Loop through all pages
           Object.keys(access).forEach(pageId => {
             const pageRoles = access[pageId]; //this gets into each 'chapter', Prologue etc, but still json
             console.log("PAGE ROLES ARE:")
             console.log(pageRoles)
+
             // Check if any role contains this button
             for (const role in pageRoles) {
               console.log("ROLES")
