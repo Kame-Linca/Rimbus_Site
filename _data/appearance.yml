@@ -1,88 +1,339 @@
-0_1:
+# 0_1:
+#   Sinner:
+#     - Faust
+#     - Ishmael
+#     - Yisang
+#     - Gregor
+#     - Outis
+#     - Rodion
+#   Non_sinner:
+#     - Vergilius
+#     - Wolf
+#     - Lion
+#     - Panther
+# 0_2:
+#   Sinner:
+#     - Yisang
+#     - Faust
+#     - Don
+#     - Ryoshu
+#     - Meursault
+#     - Heathcliff
+#     - Ishmael
+#     - Honglu
+#     - Sinclair
+#     - Gregor
+#     - Outis
+#     - Rodion
+#   Non_sinner:
+#     - Vergilius
+#     - Charon
+# 0_3:
+#   Sinner:
+#     - Faust
+#     - Ishmael
+#     - Yisang
+#     - Don
+#   Non_sinner:
+#     - Vergilius
+#     - Charon
+# 0_4:
+#   Sinner:
+#     - Faust
+#     - Ishmael
+#     - Yisang
+#     - Gregor
+#     - Outis
+#     - Rodion
+#   Non_sinner:
+#     - Vergilius
+#     - Charon
+# 1_pengin:
+#   Sinner:
+#     - Sinclair
+#     - Rodion
+#     - Ryoshu
+#     - Outis
+#     - Meursault
+#     - Gregor
+#   Non_sinner:
+#     - Yuri
+#     - Charon
+# 2_hiyoko:
+#   Sinner:
+#     - Ishmael
+#     - Heathcliff
+#     - Sinclair
+#     - Yisang
+#   Non_sinner:
+#     - Yuri
+# 3_zou:
+#   Sinner:
+#     - Faust
+#     - Ryoshu
+#     - Honglu
+#     - Don
+#   Non_sinner:
+#     - Yuri
+#     - Charon
+# 4_tirano:
+#   Sinner:
+#     - Ishmael
+#     - Rodion
+#     - Sinclair
+#     - Gregor
+#     - Faust
+#   Non_sinner:
+#     - Vergilius
+C1_1:
   Sinner:
-    - Faust
-    - Ishmael
-    - Yisang
     - Gregor
-    - Outis
-    - Rodion
-  Non_sinner:
-    - Vergilius
-    - Wolf
-    - Lion
-    - Panther
-0_2:
-  Sinner:
-    - Yisang
-    - Faust
     - Don
-    - Ryoshu
-    - Meursault
     - Heathcliff
     - Ishmael
-    - Honglu
-    - Sinclair
-    - Gregor
-    - Outis
-    - Rodion
-  Non_sinner:
-    - Vergilius
-    - Charon
-0_3:
-  Sinner:
-    - Faust
-    - Ishmael
-    - Yisang
-    - Don
-  Non_sinner:
-    - Vergilius
-    - Charon
-0_4:
-  Sinner:
-    - Faust
-    - Ishmael
-    - Yisang
-    - Gregor
-    - Outis
-    - Rodion
-  Non_sinner:
-    - Vergilius
-    - Charon
-1_pengin:
-  Sinner:
-    - Sinclair
-    - Rodion
     - Ryoshu
+    - Rodion
+    - Faust
+    - Sinclair
     - Outis
-    - Meursault
-    - Gregor
   Non_sinner:
-    - Yuri
+    - Vergilius
     - Charon
-2_hiyoko:
+C1_2:
   Sinner:
+    - Don
+    - Gregor
+    - Ryoshu
+    - Ishmael
+    - Meursault
+    - Heathcliff
+  Non_sinner:
+    - Vergilius
+    - Charon
+    - Hooligan1
+    - Hooligan2
+C1_3:
+  Sinner:
+    - Ryoshu
+    - Sinclair
+    - Don
+C1_4:
+  Sinner:
+    - Rodion
+    - Faust
+    - Ishmael
+    - Yisang
+    - Gregor
+C1_5:
+  Sinner:
+    - Faust
+    - Gregor
+    - Ishmael
+    - Sinclair
+    - Don
+    - Rodion
+  Non_sinner:
+    - Vergilius
+    - Charon
+    - Yuri
+C1_6:
+  Sinner:
+    - Don
+    - Ishmael
+    - Rodion
+  Non_sinner:
+    - Vergilius
+    - Charon
+    - Yuri
+C1_7:
+  Sinner:
+    - Sinclair
+    - Rodion
+    - Don
+    - Gregor
+    - Faust
+    - Heathcliff
+    - Ishmael
+  Non_sinner:
+    - Vergilius
+    - Charon
+    - Yuri
+C1_8:
+  Sinner:
+    - Rodion
+    - Gregor
     - Ishmael
     - Heathcliff
     - Sinclair
+    - Honglu
+  Non_sinner:
+    - Vergilius
+    - Yuri
+C1_9:
+  Sinner:
+    - Ishmael
+    - Honglu
+    - Heathcliff
+    - Faust
+    - Gregor
+  Non_sinner:
+    - Charon
+    - Yuri
+    - Aya
+    - Hopkins
+C1_10: 
+  Non_sinner:
+    - Vergilius
+C1_11:
+  Sinner:
+    - Sinclair
+    - Yisang
+    - Faust
+    - Outis
+    - Rodion
+    - Gregor
+    - Ishmael
+    - Ryoshu
+    - Heathcliff
+  Non_sinner:
+    - Hopkins
+    - Aya
+    - Veteran1
+    - Veteran2
+    - Yuri
+C1_12:
+  Sinner:
+    - Ishmael
+    - Outis
+    - Gregor
+  Non_sinner:
+    - Yuri
+C1_13:
+  Sinner:
+    - Faust
+    - Yisang
+    - Heathcliff
+    - Ryoshu
+    - Meursault
+  Non_sinner:
+    - Yuri
+    - Hopkins
+    - Aya
+C1_14:
+  Sinner:
+    - Faust
+    - Ishmael
+    - Gregor
+  Non_sinner:
+    - Yuri
+C1_15:
+  Sinner:
+    - Rodion
+    - Yisang
+    - Faust
+    - Outis
+    - Heathcliff
+    - Ishmael
+  Non_sinner:
+    - Yuri
+    - Hopkins
+    - Aya
+C1_16:
+  Sinner:
+    - Faust
+    - Rodion
+    - Gregor
+    - Outis
     - Yisang
   Non_sinner:
     - Yuri
-3_zou:
+C1_17:
   Sinner:
-    - Faust
+    - Gregor
     - Ryoshu
-    - Honglu
-    - Don
   Non_sinner:
-    - Yuri
-    - Charon
-4_tirano:
+    - HeadManager
+C1_18:
   Sinner:
     - Ishmael
-    - Rodion
     - Sinclair
+    - Yisang
+    - Heathcliff
+    - Don
+    - Rodion
     - Gregor
+  Non_sinner:
+    - Yuri
+    - Hopkins
+    - Announcer
+    - Alex
+C1_19:
+  Sinner:
+    - Outis
+    - Heathcliff
+    - Ishmael
+  Non_sinner:
+    - Yuri
+    - Alex
+C1_20:
+  Sinner:
+    - Rodion
+    - Gregor
+    - Ishmael
+    - Outis
+    - Heathcliff
     - Faust
   Non_sinner:
+    - Yuri
+    - Tomah
+C1_21:
+  Sinner:
+    - Faust
+    - Gregor
+  Non_sinner:
+    - Yuri
+    - Hermann
+C1_22:
+  Sinner:
+    - Gregor
+    - Rodion
+    - Outis
+    - Heathcliff
+    - Faust
+    - Ishmael
+  Non_sinner:
+    - Yuri
+    - Tomah
+C1_23:
+  Sinner:
+    - Gregor
+    - Rodion
+    - Heathcliff
+    - Outis
+    - Faust
+    - Don
+    - Sinclair
+  Non_sinner:
+    - Citizen1
+    - Citizen2
+    - Tomah
+    - Yuri
+C1_24:
+  Sinner:
+    - Faust
+    - Gregor
+    - Sinclair
+    - Yisang
+    - Honglu
+    - Outis
+  Non_sinner:
+    - Yuri
+    - Citizen3
+    - Citizen4
+    - Tomah
+    - Hermann
+    - Gubo
+    - Jiahuan
+    - Charon
     - Vergilius
-
+    - Carmen

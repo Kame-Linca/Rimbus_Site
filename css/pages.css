@@ -3,20 +3,48 @@
 .Faust {background-color:  #ffb1b4 ;}
 .Don {background-color:  #ffef23 ;}
 .Ryoshu {background-color:  #cf0000 ;}
-.Meursault {background-color:  #293b95; color:rgb(255, 255, 255) ;}
+.Meursault {background-color:  #293b95; color:rgb(231, 231, 231); ;}
 .Honglu {background-color:  #5bffde ;}
-.Heathcliff {background-color:  #4e3076; color:white;}
+.Heathcliff {background-color:  #4e3076; color:rgb(231, 231, 231);}
 .Ishmael {background-color:  #ff9500 ;}
-.Rodion {background-color:  #820000; color:white ;}
+.Rodion {background-color:  #820000; color:rgb(231, 231, 231);}
 .Sinclair {background-color:  #8b9c15 ;}
-.Outis {background-color:  #325339; color:white ;}
-.Gregor {background-color:  #69350b; color:white ;}
+.Outis {background-color:  #325339; color:rgb(231, 231, 231);}
+.Gregor {background-color:  #69350b; color:rgb(231, 231, 231);}
+
+.Vergilius {background-color:  #8bb3a7 ;}
+.Charon {background-color:  lightgrey ;}
+.Yuri {background-color:  pink ;}
+.Carmen {background-color:  rgb(197, 145, 62) ;}
+
+.Hermann {background-color:  #822310; color:rgb(231, 231, 231) ;}
+.Gubo {background-color:  #4A3E3D; color:rgb(231, 231, 231)  ;}
+.Jiahuan {background-color:  #464cadd9; color:rgb(231, 231, 231) ;}
+
+.Hopkins {background-color:  rgb(87, 133, 218) ;}
+.Aya {background-color:  rgb(216, 177, 79) ;}
+
 .Wolf {background-color:  lightgrey ;}
 .Lion {background-color:  glightgreyrey ;}
 .Panther {background-color:  lightgrey ;}
-.Vergilius {background-color:  lightgrey ;}
-.Charon {background-color:  lightgrey ;}
-.Yuri {background-color:  pink ;}
+
+.Hooligan1 {background-color:  lightgrey ;}
+.Hooligan2 {background-color:  lightgrey ;}
+
+.Veteran1 {background-color:  lightgrey ;}
+.Veteran2 {background-color:  lightgrey ;}
+
+.Citizen1 {background-color:  lightgrey ;}
+.Citizen2 {background-color:  lightgrey ;}
+.Citizen3 {background-color:  lightgrey ;}
+.Citizen4 {background-color:  lightgrey ;}
+
+.HeadManager {background-color:  lightgrey ;}
+.Announcer {background-color:  lightgrey ;}
+.Alex {background-color:  lightgrey ;}
+.Tomah {background-color:  lightgrey ;}
+
+
 @page { size: 21.59cm 27.94cm; margin: 2cm }
 p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
 td p { widows: 0; orphans: 0; background: transparent }
