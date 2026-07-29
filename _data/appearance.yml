@@ -339,3 +339,9 @@ C1_24:
     - Charon
     - Vergilius
     - Carmen
+C1Extra_Events:
+  Sinner:
+    - Gregor
+  Non_sinner:
+    - Hooligan1
+    - Carmen
